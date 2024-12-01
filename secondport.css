@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background-color: #3c8cbb;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+nav {
+    background-color: #2e8b57;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: #1d6c43;
+}
+section {
+    margin: 40px 15%;
+}
+h2 {
+    color: #3c8cbb;
+    font-size: 1.8em;
+}
+p {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+footer {
+    text-align: center;
+    background-color: #3c8cbb;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content-wrapper > div {
+    flex: 0 0 48%;
+    margin-bottom: 20px;
+}
+.content-wrapper div:last-child {
+    margin-bottom: 0;
+}
+.cta-btn {
+    background-color: #2e8b57;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.cta-btn:hover {
+    background-color: #1d6c43;
+}
